@@ -1,0 +1,102 @@
+@font-face {
+    src: url('fonts/openSansLight.ttf');
+    font-family: 'FonteMenu';
+}
+
+@font-face {
+    src: url('fonts/clarendon-serial-bold.ttf');
+    font-family: 'FonteLogo';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body {
+    width: 100%;
+}
+
+#cabeca {
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid #ebebeb;
+}
+
+#cabecalho {
+    display: flex;
+    width: 1180px;
+    margin: auto;
+    padding-top: 7px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo a {
+    display: flex;
+    font-family: 'FonteLogo';
+    letter-spacing: -2px;
+    font-style: italic;
+    color: #0382c5;
+}
+
+#nav_menu {
+    display: flex;
+}
+
+#menu {
+    display: flex;
+    padding-top: 7px;
+    list-style: none;
+    gap: 1rem;
+}
+
+#menu li a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.iconesMenu {
+    display: flex;
+}
+
+h3 {
+    font-size: .7em;
+    font-family: 'FonteMenu';
+}
+
+#div_procurar {
+    display: flex;
+    border-bottom: 2px solid #ebebeb;
+}
+
+#procurar{
+    padding-top: 7px;
+    display: flex;
+    height: 20px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#idProcurar {
+   padding: 7px 10px 0px 0px;
+   width: 17px;
+   height: 17px;
+}
+
+#cadastro {
+    display: flex;
+    width: 150px;
+    gap: .7rem;
+    align-items: center;
+}
+
+#compras {
+    display: flex;
+    width: 50px;
+    gap: .7rem;
+    align-items: center;
+}

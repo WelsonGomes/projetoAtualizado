@@ -1,0 +1,323 @@
+@font-face {
+    src: url('fonts/openSansLight.ttf');
+    font-family: 'FonteMenu';
+}
+
+@font-face {
+    src: url('fonts/clarendon-serial-bold.ttf');
+    font-family: 'FonteLogo';
+}
+
+#corpo {
+    width: 100%;
+}
+
+/* pagina home inicio -------------------------------------------- */
+#home {
+    width: 100%;
+    height: 549px;
+    background-image: linear-gradient(to left, #e7e7e7, #ffffff);
+}
+
+#homeImagem {
+    display: flex;
+    width: 1886px;
+    margin: auto;
+}
+
+/* pagina dos slaides --------------------------------------------- */
+.parte {
+    width: 1180px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+#slaides01 {
+    display: flex;
+    width: 1180px;
+    height: 250px;
+    padding: 50px 0;
+    margin: auto;
+    justify-content: space-between;
+}
+
+h4 {
+    width: 25px;
+    border-top: 3px solid #0282c5;
+}
+
+.bordaFoto {
+    border: 2px solid #e7e7e7;
+}
+
+.fotoSlaides > p {
+    font-size: .7em;
+}
+
+.fotoSlaides > p > span {
+    font-size: .9em;
+    text-decoration: line-through;
+}
+
+.fotoSlaides > p > em {
+    font-size: .9em;
+    font-style: normal;
+}
+
+/* pagina de mais fotos--------------------------------------------- */
+#fotosGrandes {
+    width: 1180px;
+    height: 820px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.imagensMenor {
+    display: flex;
+    width: 1180px;
+    height: 420px;
+    padding: 10px 0;
+    gap: .9rem;
+    justify-content: space-between;
+}
+
+/* Mais fotos em destaque------------------------------------------- */
+#maisFotos {
+    width: 100%;
+    height: 610px;
+    padding: 10px 0;
+    background-color: #f0f0f0;
+}
+
+#maisFotosDestaque {
+    width: 1180px;
+    padding: 50px 0;
+    margin: auto;
+}
+
+.maisFotosMeio {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    height: 500px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.ajustar {
+    width: 580px;
+    height: 480px;
+}
+
+.ajustarFoto1 {
+    padding-top: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ajustarFoto2 {
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Perfil Designers-------------------------------------------- */
+#perfilDesigners {
+    width: 1180px;
+    height: 250px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.perfilDesinersMeio {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    height: 220px;
+    padding: 20px 0;
+}
+
+.perfil1{
+    width: 385px;
+    height: 210px;
+}
+
+.perfil {
+    box-sizing: border-box;
+    display: flex;
+    width: 380px;
+    height: 90px;
+    padding: 5px;
+    margin: 5px 0;
+    border: 2px solid #e7e7e7;
+    align-items: center;
+    gap: 1rem;
+}
+
+.perfil > div > p > strong {
+    font-size: .9em;
+}
+
+.perfil > div > p > span {
+    font-size: .7em;
+}
+
+.perfil > div > p > a {
+    color: red;
+    text-decoration: none;
+    font-size: .7em;
+}
+
+/* Barra de atendimento------------------------------------------- */
+#barraAtendimento {
+    width: 100%;
+    height: 70px;
+    background-color: #e7e7e7;
+}
+
+.atendimentoMeio {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    height: 70px;
+    margin: auto;
+}
+
+.atendimento {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-sizing: border-box;
+    width: 290px;
+    height: 70px;
+    padding: 10px 0;
+}
+
+.atendimento > div > p > strong {
+    font-size: .8em;
+}
+
+.atendimento > div > p > span {
+    font-size: .7em;
+}
+
+/* Final da pagina---------------------------------------------- */
+#fimPagina {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    height: 350px;
+    padding: 50px 0;
+    margin: auto;
+}
+
+.fimPaginaSite1 {
+    width: 280px;
+    height: 370px;
+}
+
+.fimPaginaSite1Div {
+    padding: 20px 0px 50px 0px;
+}
+
+.fimPaginaSite1Div > h2 {
+    font-family: 'FonteLogo';
+    font-size: 2em;
+    letter-spacing: -2px;
+    font-style: italic;
+    color: #0382c5;
+    padding-bottom:20px;
+}
+
+.fimPaginaSite1Div > p {
+    text-indent: 20px;
+    font-size: .8em;
+}
+
+.fimPaginaSite2 {
+    box-sizing: border-box;
+    width: 270px;
+    height: 370px;
+    padding: 30px 20px;
+}
+
+.fimPaginaSite2 > ul {
+    padding: 10px 0px 0px 20px;
+}
+
+.fimPaginaSite2 > ul > li {
+    font-size: .9em;
+    padding: 4px;
+}
+
+.fimPaginaSite3 {
+    box-sizing: border-box;
+    width: 320px;
+    height: 370px;
+    padding: 30px 0px 30px 10px;
+}
+
+.fimPaginaSite3 > ul {
+    padding: 10px 0px 0px 20px;
+}
+
+.fimPaginaSite3 > ul > li {
+    font-size: .8em;
+    padding: 4px;
+}
+
+.fimPaginaSite4 {
+    box-sizing: border-box;
+    width: 310px;
+    height: 370px;
+    padding: 30px 20px;
+}
+
+.seloSeguranca1 {
+    display: flex;
+    gap: .5rem;
+}
+
+.seloSeguranca3 {
+    padding: 40px 0;
+}
+
+.seloSeguranca3 > h2 {
+    font-size: 1em;
+    padding-bottom: 40px;
+}
+
+.seloSeguranca2 {
+    padding: 10px 0;
+}
+.contatos {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Rodapé da pagina------------------------------------------- */
+footer {
+    width: 100%;
+    height: 80px;
+    border-top: 2px solid #e7e7e7;
+}
+
+footer > section {
+    display: flex;
+    width: 1180px;
+    margin: auto;
+    gap: 1rem;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.redesSociais {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.texto {
+    font-size: .8em;
+}
